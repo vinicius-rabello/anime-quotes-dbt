@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: gym_app_db
+    description: 'database for the gym app'
+    database: gym_app_db
+    schema: public
+    tables:
+      - name: exercises
+        description: 'table containing all the exercises'
